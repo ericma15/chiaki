@@ -92,7 +92,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install --upgrade setuptools wheel
-          python3 -m pip install --user --upgrade scons protobuf==4.25.1 grpcio-tools pyinstaller
+          python3 -m pip install --user scons protobuf==4.25.1 grpcio-tools pyinstaller
           python3 -c 'import google.protobuf; print(google.protobuf.__file__)'
 
       # aqt list-qt windows desktop --modules 6.2.4 win64_msvc2019_64
